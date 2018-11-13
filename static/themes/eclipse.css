@@ -1,0 +1,180 @@
+/*
+    Name:       eclipse 1.1.1
+    Author:     zhao zhang (http://github.com/loatheb)
+    Original Atom One Light Theme (https://github.com/atom/eclipse-ui & https://github.com/atom/eclipse-syntax)
+*/
+/* basic */
+.CodeMirror.cm-s-eclipse {
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-weight: 350;
+    font-size: 18px;
+    color: #999999;
+    background-color: #FFFFFF;
+}
+
+.cm-s-eclipse .CodeMirror-selected {
+    background-color: #c3c3c3;
+}
+
+.cm-s-eclipse .CodeMirror-gutter,
+.cm-s-eclipse .CodeMirror-gutters {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.cm-s-eclipse .CodeMirror-linenumber,
+.cm-s-eclipse .CodeMirror-linenumbers {
+    color: #999999 !important;
+    background-color: transparent;
+}
+
+.cm-s-eclipse .CodeMirror-lines {
+    color: #27292f !important;
+    background-color: transparent;
+}
+
+.cm-s-eclipse .CodeMirror-cursor {
+    border-left: 2px solid #526fff !important;
+}
+
+/* basic syntax */
+.cm-s-eclipse .cm-header {
+    color: #e45649;
+}
+
+.cm-s-eclipse .cm-quote {
+    color: #a0a1a7;
+    font-style: italic;
+}
+
+.cm-s-eclipse .cm-negative {
+    color: #e45649;
+}
+
+.cm-s-eclipse .cm-positive {
+    color: #e45649;
+}
+
+.cm-s-eclipse .cm-strong {
+    color: #986801;
+    font-weight: bold;
+}
+
+.cm-s-eclipse .cm-header .cm-strong {
+    color: #986801;
+    font-weight: bold;
+}
+
+.cm-s-eclipse .cm-em {
+    color: #0000FF;
+    font-style: italic;
+}
+
+.cm-s-eclipse .cm-header .cm-em {
+    color: #0000FF;
+    font-style: italic;
+}
+
+.cm-s-eclipse .cm-tag {
+    color: #e45649;
+}
+
+.cm-s-eclipse .cm-attribute {
+    color: #d19a66;
+}
+
+.cm-s-eclipse .cm-link {
+    color: #000080;
+    border-bottom: solid 1px #000080;
+}
+
+.cm-s-eclipse .cm-string.cm-url {
+    color: #0184bc;
+    border-bottom: solid 1px #0184bc;
+}
+
+.cm-s-eclipse .cm-builtin {
+    color: #e45649;
+}
+
+.cm-s-eclipse .cm-keyword {
+    color: #0000FF;
+}
+
+.cm-s-eclipse .cm-def {
+    color: #000080;
+}
+
+.cm-s-eclipse .cm-type {
+    color: #000080;
+}
+
+.cm-s-eclipse .cm-atom {
+    color: #d19a66;
+}
+
+.cm-s-eclipse .cm-number {
+    color: #FF8000;
+}
+
+.cm-s-eclipse .cm-property {
+    color: #000080;
+}
+
+.cm-s-eclipse .cm-qualifier {
+    color: #986801;
+}
+
+.cm-s-eclipse .cm-variable {
+    color: #800040;
+}
+
+.cm-s-eclipse .cm-variable-2 {
+    color: #800040;
+}
+
+.cm-s-eclipse .cm-string {
+    color: #808080;
+}
+
+.cm-s-eclipse .cm-punctuation {
+    color: #8000FF;
+}
+
+.cm-s-eclipse .cm-operator {
+    color: #8000FF;
+}
+
+.cm-s-eclipse .cm-meta {
+    color: #999999;
+}
+
+.cm-s-eclipse .cm-bracket {
+    color: #8000FF;
+}
+
+.cm-s-eclipse .cm-comment {
+    color: #008000;
+    font-style: italic;
+}
+
+.cm-s-eclipse .cm-error {
+    color: #800040;
+}
+
+/* css syntax corrections */
+.cm-s-eclipse .cm-m-css.cm-variable {
+    color: #828997;
+}
+
+.cm-s-eclipse .cm-m-css.cm-property {
+    color: #999999;
+}
+
+.cm-s-eclipse .cm-m-css.cm-atom {
+    color: #0184bc;
+}
+
+.cm-s-eclipse .cm-m-css.cm-builtin {
+    color: #56b6c2;
+}

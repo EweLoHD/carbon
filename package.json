@@ -34,7 +34,7 @@
     "ms": "^2.0.0",
     "next": "^7.0.2",
     "next-offline": "^3.0.3",
-    "react": "^16.6.0",
+    "react": "^16.6.3",
     "react-addons-shallow-compare": "^15.6.2",
     "react-click-outside": "^3.0.0",
     "react-codemirror2": "^5.1.0",
